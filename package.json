@@ -1,7 +1,7 @@
 {
   "name":"liveFeed",
-  "node":"0.8.21",
-  "author":"Samarth",
+  "node":"0.10.12",
+  "author":"Samarth Sinha",
   "dependencies": {
   	"socket.io": "*",
   	"cookie": "*",
@@ -10,6 +10,6 @@
     "redis":"*"
   	},
   "scripts": {
-  	"start": "node server.js"
+  	"start": "node app.js"
   }
 }
