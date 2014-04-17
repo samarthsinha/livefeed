@@ -1,0 +1,15 @@
+{
+  "name":"liveFeed",
+  "node":"0.8.21",
+  "author":"Samarth",
+  "dependencies": {
+  	"socket.io": "*",
+  	"cookie": "*",
+  	"jade": "*",
+    "bower":"*",
+    "redis":"*"
+  	},
+  "scripts": {
+  	"start": "node server.js"
+  }
+}

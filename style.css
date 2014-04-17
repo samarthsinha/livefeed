@@ -1,0 +1,82 @@
+body{
+	margin:0 auto;
+
+}
+input[type=text], input[type=password] {
+	margin-top:3px;
+	vertical-align:	middle;
+    height: 38px !important;
+}
+.btn .btn-primary{
+	vertical-align:	middle;
+	height: 38px !important;
+}
+#container{
+	margin:0 auto;
+	width:80%;
+	height:100px;
+}
+#mastHead{
+	height:60px;
+}
+.textbox , .button , input{
+	border:1px solid black;
+	padding:10px;
+	line-height: 20px;
+	box-shadow: 1px 1px 0 0 ;
+}
+.button{
+	background: #084B8A;
+	color:white;
+	display:inline-block;
+	line-height: 20px;
+	padding:5px;
+	margin:5px;
+	text-decoration: none;
+	box-shadow: 1px 1px 0 0 ;
+}
+.following{
+	background: #01DF3A;
+	color:black;
+	border:0px;
+	box-shadow:0 0 0 0;
+	border-radius:32px;
+	height:1px;
+	padding:5px;
+
+}
+.home{
+	display: block;
+	float:left;
+}
+.navBar{
+	float:right;
+}
+li{
+	list-style: none;
+	margin: 5px;
+	padding:2px;
+}
+.shouts{
+	border-bottom:1px solid black;
+}
+
+.message{
+	border:1px solid black;
+}
+.error{
+	color:red;
+}
+.success{
+	color:green;
+}
+.info{
+	color:yellow;
+}
+.shoutBox{
+	float:right;
+	width:400px;
+	height:450px;
+	border:0px;
+	overflow:hidden;
+}
